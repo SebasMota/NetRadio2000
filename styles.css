@@ -1,0 +1,102 @@
+* {
+    text-align: center;
+}
+header {
+    padding-top: 50px;
+    background-color: rgb(5, 28, 90);
+    padding-bottom: 25px;
+}
+h1 {
+    color:aliceblue;
+    font-size: 56px;
+}
+h2 {
+    font-style: italic;
+    font-size: 38px;
+    color:rgb(132, 4, 104);
+}
+main {
+    justify-content: center;
+    background-color: rgb(9, 46, 127);
+    padding-top: 25px;
+    padding-bottom: 75px;
+}
+#mfe {
+    color: goldenrod;
+    display: inline-block;
+    text-align: center;
+    animation: moveLeftToRight 13s linear infinite;
+    position: relative;
+    white-space: nowrap;
+}
+#akm {
+    color: green;
+    text-align: left;
+    animation: moveLeftToRight 3s linear infinite;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+#bse {
+    text-align: center;
+    color:crimson;
+    animation: blink 0.8s infinite;
+  }
+  
+  @keyframes blink {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+  }
+
+
+@keyframes moveLeftToRight {
+    0% {
+      transform: translateX(-100%); /* Start off-screen to the left */
+    }
+    100% {
+      transform: translateX(100%); /* End off-screen to the right */
+    }
+  }
+
+#myAudio {
+    text-align: left;
+}
+
+#songDay {
+    margin-top: 50px;
+    color:greenyellow;
+}
+  /* Apply the animation to the element */
+
+.kinds {
+  margin-bottom: 20px;
+  text-align: center;
+  color:cadetblue;
+}
+ul {
+  list-style-position: 0;
+  padding-left: 0;
+  text-align: center;
+}
+li {
+  color:aliceblue;
+  font-size: 24px;
+  text-align: center;
+  margin-top: 12px;
+}
+#title {
+    color:greenyellow;
+}
+a {
+  color:aliceblue;
+  text-decoration: none;
+}
+  
+#clickme {
+  margin-top: 18px;
+  font-size: 12px;
+}

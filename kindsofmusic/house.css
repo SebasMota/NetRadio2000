@@ -1,0 +1,32 @@
+img {
+    float: left;
+    margin-right: 20px;
+    justify-content: center;
+    width: 35%;
+    height: auto;
+}
+.header-container {
+    display: flex;
+    align-items: center; /* Vertically align items */
+    justify-content: flex-right;
+}
+#audio1 {
+    margin-left: 350px;
+}
+.header-container {
+    display: flex;
+    justify-content: flex-right;
+}
+#text2 {
+    flex-direction: row;
+    margin-left: 500px;
+}
+#audio2 {
+    margin-left: 0px;
+}
+#text3 {
+    margin-left: 750px;
+}
+#audio3 {
+    margin-left: 325px;
+}
